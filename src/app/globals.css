@@ -33,10 +33,22 @@ a {
   background: #11141D;
 }
 
+@media (max-width: 450px) {
+  .profileBox {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #11141D;
+  }
+
+}
+
 .profileBox::before {
   content: "";
   position: absolute;
-  inset: -10px 140px;
+  inset: -5px 140px;
   background: #3D5BA9;
   transition: 0.5s;
   animation: animateProfile 4s linear infinite;

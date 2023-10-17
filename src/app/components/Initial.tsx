@@ -50,9 +50,9 @@ const Initial = () => {
             <Divider sx={{backgroundColor:"white"}} />
             <h2>Get to know about me</h2>
             <Box className="boxShadow" style={detailBox}>
-              <h3>My name is Gabriel Gardini and I'm a Full Stack developer and a UX Designer</h3>
-              <h3>Passionate about technology and design, I love doing projects like this website in my free time to improve myself.</h3>
-              <h3>Here you will find out a little more about me and my projects!</h3>
+              <h3>I'm Gabriel Gardini, a Full Stack developer and UX Designer with a passion for technology and design.</h3>
+               <h3>In my free time, I enjoy working on projects like this website to further enhance my skills.</h3>
+              <h3> Explore this platform to get to know me better and discover some of my projects!</h3> 
             </Box>
           </Grid>
           <Grid
@@ -72,8 +72,6 @@ const Initial = () => {
               className="profilePicture"
               src={ProfilePicture}
               alt={"Profile Picture"}
-              // width={300}
-              // height={300}
               style={animation}
               />
               </div>
