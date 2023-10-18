@@ -1,3 +1,43 @@
+[data-anime] {
+  opacity:0;
+  transition: 1500ms;
+}
+[data-anime="image"] {
+
+}
+[data-anime="left"] {
+  transform: translate3d(-2000px, 0, 0);
+}
+[data-anime="right"] {
+  transform: translate3d(2000px, 0, 0);
+}
+[data-anime="leftDiagonal"] {
+  transform: translate3d(-2000px, -2000px, 0);
+
+}
+[data-anime="rightDiagonalBot"] {
+  transform: translate3d(2000px, 2000px, 0);
+
+}
+[data-anime="rightDiagonal"] {
+  transform: translate3d(2000px, -2000px, 0);
+}
+[data-anime="leftDiagonalBot"] {
+  transform: translate3d(-2000px, 2000px, 0);
+}
+[data-anime="center"] {
+  transform: scale(0.1);
+  /* transform: rotate3d(0, 1, 0, 160deg); */
+}
+[data-anime="centerBot"] {
+  transform: scale(5);
+  /* transform: rotate3d(0, 1, 0, 160deg); */
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translateX(0px);
+}
 html,
 body {
   max-width: 100vw;

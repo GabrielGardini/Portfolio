@@ -27,6 +27,8 @@ const Formation = () => {
     borderRadius: 10,
     borderTopLeftRadius: 0,
     borderWidth: 1,
+    backgroundColor: "#1A1F2E",
+
     borderColor: "#3D5BA9",
     borderStyle: "solid",
     marginTop: 40,
