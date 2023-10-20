@@ -160,3 +160,22 @@ a {
   justify-content: center;
   align-items: center;
 }
+.hero-carousel {
+  @apply relative sm:px-10 py-5 sm:pt-20 pb-5 max-w-[560px] h-[700px] w-full bg-[#F2F4F7] rounded-[30px] sm:mx-auto;
+}
+
+.carousel {
+  @apply flex flex-col-reverse h-[700px];
+}
+
+.carousel .control-dots {
+  @apply static !important;
+}
+
+.carousel .control-dots .dot {
+  @apply w-[10px] h-[10px] bg-[#D9D9D9] rounded-full bottom-0 !important;
+}
+
+.carousel .control-dots .dot.selected {
+  @apply bg-[#475467] !important;
+}

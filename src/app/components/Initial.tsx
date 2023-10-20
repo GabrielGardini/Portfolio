@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Box, Divider, Grid, useMediaQuery } from "@mui/material";
-import ProfilePicture from "../assets/images/profile-picture.jpg";
+import ProfilePicture from "../public/assets/images/profile-picture.jpg";
 import Image from "next/image";
 
 const Initial = () => {

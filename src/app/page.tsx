@@ -5,6 +5,7 @@ import Habilities from './components/Habilities'
 import Header from './components/Headex'
 import Initial from './components/Initial'
 import Scripts from "./Scripts";
+import HeroCarousel from './components/HeroCarousel';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
     <Initial/>
     <Formation/>
     <Habilities/>
+    <HeroCarousel/>
     </>
   )
 }

@@ -3,7 +3,7 @@ import React from "react";
 import { Box, Grid, useMediaQuery } from "@mui/material";
 import CallIcon from "@mui/icons-material/Call";
 import Button from "@mui/material/Button";
-import UnicampLogo from "../assets/images/Logo_Unicamp.jpg";
+import UnicampLogo from "../public/assets/images/Logo_Unicamp.jpg";
 import { LinkedIn } from "@mui/icons-material";
 import Image from "next/image";
 
