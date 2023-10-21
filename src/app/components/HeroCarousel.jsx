@@ -63,7 +63,6 @@ const HeroCarousel = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            backgroundColor: "blue",
           }}
           showThumbs={false}
           // autoPlay
@@ -82,13 +81,14 @@ const HeroCarousel = () => {
               mb: 15,
             }}
           >
-            <h1>{"ping pongo"}</h1>
+            <h1>{"ping pongoooo"}</h1>
             <p>{"testetetretwetr"}</p>
             <Image
               src={pingpong}
               alt={"pingpong"}
-              width={matches ? 400 : 250}
-              height={matches ? 400 : 250}
+              width={matches ? 700 : 300}
+              height={matches ? 400 : 175}
+              style={{ borderRadius: 10 }}
             />
             <Button sx={{ mb: 15, mt: 3 }} variant="contained">
               Acesse
@@ -106,8 +106,9 @@ const HeroCarousel = () => {
             <Image
               src={issTracker}
               alt={"pingpong"}
-              width={matches ? 400 : 250}
-              height={matches ? 400 : 250}
+              width={matches ? 700 : 300}
+              height={matches ? 400 : 175}
+              style={{ borderRadius: 10 }}
             />
             <Button sx={{ mb: 15, mt: 3 }} variant="contained">
               Acesse
@@ -118,6 +119,7 @@ const HeroCarousel = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              borderRadius: 20,
             }}
           >
             <h1>{"ping pongo"}</h1>
@@ -125,8 +127,9 @@ const HeroCarousel = () => {
             <Image
               src={dalle}
               alt={"pingpong"}
-              width={matches ? 400 : 250}
-              height={matches ? 400 : 250}
+              width={matches ? 700 : 300}
+              height={matches ? 400 : 175}
+              style={{ borderRadius: 10 }}
             />
             <Button sx={{ mb: 15, mt: 3 }} variant="contained">
               Acesse
