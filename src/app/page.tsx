@@ -6,6 +6,7 @@ import Header from './components/Headex'
 import Initial from './components/Initial'
 import Scripts from "./Scripts";
 import HeroCarousel from './components/HeroCarousel';
+import Teste from './components/Teste';
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
     <Initial/>
     <Formation/>
     <Habilities/>
+    <Teste/>
     <HeroCarousel/>
     </>
   )
