@@ -35,106 +35,6 @@ const Habilities = () => {
 
   return (
     <>
-      {/* <Box sx={{ backgroundColor: "#11141D" }}>
-        <Box id={"solucoes"} data-anime={"center"} sx={box}>
-          <h1 className="test">
-            My Habilities
-          </h1>
-        </Box>
-        <Box sx={solutionBoxBlue}>
-          <Grid container sx={gridContainerWhite}>
-            <Grid
-              data-anime={"center"}
-              className="boxShadow"
-              sx={{ backgroundColor: "#1A1F2E", borderRadius: 5, p: 3, fontSize: matches? 24 : 14 }}
-              item
-              md={5.6}
-              xs={12}
-            >
-              <Box 
-              sx={{ display: "flex", justifyContent: "center", flexDirection:"column", alignItems:"center" }}
-              >
-                <h3 style={{fontSize:30}}>FrontEnd</h3>
-                <Box
-                 sx={{ display: "flex", alignItems:"center", justifyContent:"center",width:matches?"300px":"150px" }}
-                 >
-                  <WorkspacePremiumIcon sx={{color:"#D69B23", mr:2}}/>
-                  <h3>Typescript⠀⠀⠀⠀</h3>
-                </Box>
-                <Box
-                 sx={{ display: "flex", alignItems:"center", justifyContent:"center",width:matches?"300px":"150px" }}
-                 >
-                  <WorkspacePremiumIcon sx={{color:"#D69B23", mr:2}}/>
-                  <h3>Javascript⠀⠀⠀⠀</h3>
-                </Box>
-                <Box  sx={{ display: "flex", alignItems:"center", justifyContent:"space-evenly",width:matches?"300px":"150px"}}>
-                  <WorkspacePremiumIcon sx={{color:"#D69B23", mr:2}}/>
-                  <h3>React⠀⠀⠀⠀⠀⠀</h3>
-                </Box>
-                <Box sx={{ display: "flex", alignItems:"center", justifyContent:"space-evenly",width:matches?"300px":"150px"}}>
-                  <WorkspacePremiumIcon sx={{color:"#9EA6B9", mr:2}}/>
-                  <h3>React Native⠀</h3>
-                </Box>
-                <Box sx={{ display: "flex", alignItems:"center", justifyContent:"space-evenly",width:matches?"300px":"150px"}}>
-                  <WorkspacePremiumIcon sx={{color:"#9EA6B9", mr:2}}/>
-                  <h3>HTML⠀⠀⠀⠀⠀⠀⠀</h3>
-                </Box>
-                <Box sx={{ display: "flex", alignItems:"center", justifyContent:"space-evenly",width:matches?"300px":"150px"}}>
-                  <WorkspacePremiumIcon sx={{color:"#9EA6B9", mr:2}}/>
-                  <h3>CSS⠀⠀⠀⠀⠀⠀⠀⠀</h3>
-                </Box>
-           
-              </Box>
-              
-              
-            </Grid>
-            <Grid item md={0.8} xs={12}>
-              <p style={{ color: "#11141D" }}> .</p>
-            </Grid>
-            <Grid
-              data-anime={"center"}
-              className="boxShadow"
-              sx={{ backgroundColor: "#1A1F2E", borderRadius: 5, p: 3, fontSize: matches? 24 : 14 }}
-              item
-              md={5.6}
-              xs={12}
-            >
-             <Box sx={{ display: "flex", justifyContent: "center", flexDirection:"column", alignItems:"center" }}>
-                <h3 style={{fontSize:30}}>BackEnd</h3>
-                <Box sx={{ display: "flex", alignItems:"center", justifyContent:"space-evenly",width:matches?"300px":"150px"}}>
-                  <WorkspacePremiumIcon sx={{color:"#9EA6B9", mr:2}}/>
-                  <h3>Python</h3>
-                </Box>
-                <Box sx={{ display: "flex", alignItems:"center", justifyContent:"space-evenly",width:matches?"300px":"150px"}}>
-                  <WorkspacePremiumIcon sx={{color:"#9EA6B9", mr:2}}/>
-                  <h3>Express</h3>
-                </Box>
-                <Box sx={{ display: "flex", alignItems:"center", justifyContent:"space-evenly",width:matches?"300px":"150px"}}>
-                  <WorkspacePremiumIcon sx={{color:"#9EA6B9", mr:2}}/>
-                  <h3>Node Js</h3>
-                </Box>
-                <Box sx={{ display: "flex", alignItems:"center", justifyContent:"space-evenly",width:matches?"300px":"150px"}}>
-                  <WorkspacePremiumIcon sx={{color:"#915511", mr:2}}/>
-                  <h3>Mongo DB</h3>
-                </Box>
-                <Box sx={{ display: "flex", alignItems:"center", justifyContent:"space-evenly",width:matches?"300px":"150px"}}>
-                  <WorkspacePremiumIcon sx={{color:"#915511", mr:2}}/>
-                  <h3>SQL</h3>
-                </Box>
-                <Box sx={{ display: "flex", alignItems:"center", justifyContent:"space-evenly",width:matches?"300px":"150px"}}>
-                  <WorkspacePremiumIcon sx={{color:"#915511", mr:2}}/>
-                  <h3>C</h3>
-                </Box>
-                <Box sx={{ display: "flex", alignItems:"center", justifyContent:"space-evenly",width:matches?"300px":"150px"}}>
-                  <WorkspacePremiumIcon sx={{color:"#915511", mr:2}}/>
-                  <h3>Java</h3>
-                </Box>
-              </Box>
-              
-            </Grid>
-          </Grid>
-        </Box>
-      </Box> */}
        <Box sx={{ backgroundColor: "#11141D" }}>
         <Box id={"solucoes"} data-anime={"center"} sx={box}>
           <h1 className="test">
@@ -193,7 +93,7 @@ const Habilities = () => {
             </Grid>
             <Grid
               data-anime={"center"}
-              // className="box"
+              className="boxShadow"
               sx={{ backgroundColor: "#1A1F2E", borderRadius: 5, p: 3, fontSize: matches? 24 : 14 }}
               item
               md={5.6}

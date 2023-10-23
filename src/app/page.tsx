@@ -7,9 +7,12 @@ import Initial from './components/Initial'
 import Scripts from "./Scripts";
 import HeroCarousel from './components/HeroCarousel';
 import Teste from './components/Teste';
+import { useMediaQuery } from '@mui/material';
 
 
 export default function Home() {
+  const matches3 = useMediaQuery("(min-width:1700px)");
+
   useEffect(() => {
     Scripts();
   }, []);
@@ -19,8 +22,11 @@ export default function Home() {
     <Initial/>
     <Formation/>
     <Habilities/>
-    <Teste/>
+    {matches3?(
+      <Teste/>
+    ):(
     <HeroCarousel/>
+    )}
     </>
   )
 }

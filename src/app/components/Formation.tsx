@@ -22,7 +22,7 @@ const Formation = () => {
     width: matches ? "70%" : "100%",
   };
   const detailBox = {
-    paddingLeft: 30,
+    paddingLeft: matches?30:15,
     fontSize: 18,
     borderRadius: 10,
     borderTopLeftRadius: 0,

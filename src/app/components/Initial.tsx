@@ -31,7 +31,7 @@ const Initial = () => {
     borderStyle: "solid",
     borderRadius: 10,
     borderTopLeftRadius: 0,
-    padding: 5,
+    paddingLeft: matches?30:15,
     backgroundColor: "#1A1F2E",
     // color: "black",
   };
