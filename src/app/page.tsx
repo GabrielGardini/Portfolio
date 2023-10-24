@@ -21,7 +21,9 @@ export default function Home() {
     <Header/>
     <Initial/>
     <Formation/>
+    <div id="experience"></div>
     <Habilities/>
+    <div id="projects"></div>
     {matches3?(
       <Teste/>
     ):(

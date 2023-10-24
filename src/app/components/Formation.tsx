@@ -52,7 +52,7 @@ const Formation = () => {
 
   return (
     <>
-      <Box id={"experience"} style={box}>
+      <Box style={box}>
         <Grid sx={gridContainer} container spacing={5}>
           <Grid item xl={6} xs={12}>
             <h1>

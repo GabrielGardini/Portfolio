@@ -48,7 +48,7 @@ const Teste = () => {
     <>
       <Box sx={{ backgroundColor: "#11141D" }}>
         <Box id={"solucoes"} sx={box}>
-          <h1 className="test">My Habilities</h1>
+          <h1 className="test">My Projects</h1>
         </Box>
         <Box sx={solutionBoxBlue}>
           <Grid container sx={gridContainerWhite}>

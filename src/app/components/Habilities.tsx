@@ -13,7 +13,7 @@ const Habilities = () => {
     // marginY: 2,
     display: "flex",
     justifyContent: "center",
-    backgroundColor: "#11141D",
+    backgroundColor: "#1A1F2E",
     fontFamily: "Poppins",
     fontSize: matches ? 24 : 18,
     color:"#EFF1F6",
@@ -27,16 +27,16 @@ const Habilities = () => {
   };
   const solutionBoxBlue = {
     fontFamily: "Poppins",
-    backgroundColor: "#11141D",
+    backgroundColor: "#1A1F2E",
     display: "flex",
     justifyContent: "center",
   };
 
-
+  // 1A1F2E
   return (
     <>
-       <Box sx={{ backgroundColor: "#11141D" }}>
-        <Box id={"solucoes"} data-anime={"center"} sx={box}>
+       <Box sx={{ backgroundColor: "#1A1F2E", width:"100vw" }}>
+        <Box data-anime={"center"} sx={box}>
           <h1 className="test">
             My Habilities
           </h1>
@@ -46,7 +46,7 @@ const Habilities = () => {
             <Grid
               data-anime={"center"}
               className="boxShadow"
-              sx={{ backgroundColor: "#1A1F2E", borderRadius: 5, p: 3, fontSize: matches? 24 : 14 }}
+              sx={{ backgroundColor: "#11141D", borderRadius: 5, p: 3, fontSize: matches? 24 : 14 }}
               item
               md={5.6}
               xs={12}
@@ -94,7 +94,7 @@ const Habilities = () => {
             <Grid
               data-anime={"center"}
               className="boxShadow"
-              sx={{ backgroundColor: "#1A1F2E", borderRadius: 5, p: 3, fontSize: matches? 24 : 14 }}
+              sx={{ backgroundColor: "#11141D", borderRadius: 5, p: 3, fontSize: matches? 24 : 14 }}
               item
               md={5.6}
               xs={12}

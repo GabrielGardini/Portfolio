@@ -29,6 +29,16 @@ const HeroCarousel = () => {
           alignItems: "center",
         }}
       >
+        <h1>My Projects</h1>
+      </Box>
+      <Box
+        sx={{
+          // p: 5,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         <div
           className="boxShadow"
           style={{ backgroundColor: "#1A1F2E", padding: 20, borderRadius: 20 }}
