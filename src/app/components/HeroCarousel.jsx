@@ -13,6 +13,7 @@ import theOffice from "../public/assets/images/theOffice.png";
 import flipstore from "../public/assets/images/flipstore.png";
 import pedalarte from "../public/assets/images/pedalarte.png";
 import localizador from "../public/assets/images/localizadorDeSalas.png";
+import checkspeech from "../public/assets/images/checkspeech.png";
 import { Box, Button, Divider, useMediaQuery } from "@mui/material";
 import "../globals.css";
 
@@ -139,6 +140,45 @@ const HeroCarousel = () => {
               <a
                 target="blank"
                 href="https://todo-list-one-swart.vercel.app"
+                style={{ textDecoration: "none" }}
+              >
+                <Button
+                  sx={{
+                    mb: 15,
+                    mt: 3,
+                    bgcolor: "#3D5BA9",
+                    color: "#EFF1F6",
+                    ":hover": { backgroundColor: "#EFF1F6", color: "#3D5BA9" },
+                  }}
+                  variant="contained"
+                >
+                  access
+                </Button>
+              </a>
+            </div>
+            <div
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                backgroundColor: "#ffffff",
+                mb: 15,
+              }}
+            >
+              <h1>{"CheckSpeech AI"}</h1>
+              <p>
+                {"A website created to sell a Speech-to-text conversion API"}
+              </p>
+              <Image
+                src={checkspeech}
+                alt={"checkspeech"}
+                width={matches ? 700 : 300}
+                height={matches ? 400 : 175}
+                style={{ borderRadius: 10 }}
+              />
+              <a
+                target="blank"
+                href="https://checkspeech-ai-eosin.vercel.app"
                 style={{ textDecoration: "none" }}
               >
                 <Button
