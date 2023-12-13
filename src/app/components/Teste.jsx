@@ -9,6 +9,8 @@ import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
 import pingpong from "../public/assets/images/pingpong.png";
 import dalle from "../public/assets/images/dalle.png";
+import shirt3d from "../public/assets/images/shirt3d.png";
+
 import issTracker from "../public/assets/images/iss-tracker.png";
 import Todos from "../public/assets/images/Todos.png";
 import jacare from "../public/assets/images/jacare.png";
@@ -112,8 +114,56 @@ const Teste = () => {
                       mb: 15,
                     }}
                   >
-                    <h1>{"Dall-e Clone"}</h1>
-                    <p>
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"Customized 3D Shirt"}
+                    </h1>
+                    <p style={{ height: 200 }}>
+                      {
+                        "Application that allows the user to customize a 3D shirt and save the file. Created to improve my knowledge about 3D modeling and Three.js"
+                      }
+                    </p>
+                    <Image
+                      src={shirt3d}
+                      alt={"3D shirt"}
+                      width={matches2 ? 700 : matches ? 500 : 300}
+                      height={matches2 ? 400 : matches ? 250 : 175}
+                      style={{ borderRadius: 10 }}
+                    />
+                    <a
+                      target="blank"
+                      href="https://3d-customized-shirt.vercel.app"
+                      style={{ textDecoration: "none" }}
+                    >
+                      <Button
+                        sx={{
+                          mb: 15,
+                          mt: 3,
+                          bgcolor: "#3D5BA9",
+                          color: "#EFF1F6",
+                          ":hover": {
+                            backgroundColor: "#EFF1F6",
+                            color: "#3D5BA9",
+                          },
+                        }}
+                        variant="contained"
+                      >
+                        access
+                      </Button>
+                    </a>
+                  </div>
+                  <div
+                    sx={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      backgroundColor: "#ffffff",
+                      mb: 15,
+                    }}
+                  >
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"Dall-e Clone"}
+                    </h1>
+                    <p style={{ height: 200 }}>
                       {
                         "Application that generates images using artificial intelligence and saves them in a repository. Created to improve my knowledge about MERN"
                       }
@@ -154,8 +204,10 @@ const Teste = () => {
                       alignItems: "center",
                     }}
                   >
-                    <h1>{"Todo List"}</h1>
-                    <p>
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"Todo List"}
+                    </h1>
+                    <p style={{ height: 200 }}>
                       {
                         "A website where users can create an account and save their to-do list, created to improve knowledge about the MERN Stack"
                       }
@@ -196,8 +248,10 @@ const Teste = () => {
                       alignItems: "center",
                     }}
                   >
-                    <h1>{"CheckSpeech AI"}</h1>
-                    <p>
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"CheckSpeech AI"}
+                    </h1>
+                    <p style={{ height: 200 }}>
                       {
                         "A website created to sell a Speech-to-text conversion API"
                       }
@@ -239,8 +293,10 @@ const Teste = () => {
                       borderRadius: 20,
                     }}
                   >
-                    <h1>{"Jacaré do SUS"}</h1>
-                    <p>
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"Jacaré do SUS"}
+                    </h1>
+                    <p style={{ height: 200 }}>
                       {
                         "Created in a game development marathon during the pandemic"
                       }
@@ -282,8 +338,10 @@ const Teste = () => {
                       borderRadius: 20,
                     }}
                   >
-                    <h1>{"ISS Tracker"}</h1>
-                    <p>
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"ISS Tracker"}
+                    </h1>
+                    <p style={{ height: 200 }}>
                       {
                         "Application that shows where the International Space Station is currently located created to improve my knowledge about consumption and API's."
                       }
@@ -325,8 +383,12 @@ const Teste = () => {
                       borderRadius: 20,
                     }}
                   >
-                    <h1>{"Ping Pong Game"}</h1>
-                    <p>{"Ping Pong game created using only javascript."}</p>
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"Ping Pong Game"}
+                    </h1>
+                    <p style={{ height: 200 }}>
+                      {"Ping Pong game created using only javascript."}
+                    </p>
                     <Image
                       src={pingpong}
                       alt={"ping pong"}
@@ -364,8 +426,10 @@ const Teste = () => {
                       borderRadius: 20,
                     }}
                   >
-                    <h1>{"The Office Quotes"}</h1>
-                    <p>
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"The Office Quotes"}
+                    </h1>
+                    <p style={{ height: 200 }}>
                       {
                         "Web application that contains several striking phrases from The Office. Created to improve Api consumption and audio reproduction concepts"
                       }
@@ -464,8 +528,10 @@ const Teste = () => {
                       mb: 15,
                     }}
                   >
-                    <h1>{"FlipStore"}</h1>
-                    <p>
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"FlipStore"}
+                    </h1>
+                    <p style={{ height: 200 }}>
                       {
                         "Design in figma of an arcade store app created in my Google ux design certification"
                       }
@@ -506,8 +572,10 @@ const Teste = () => {
                       alignItems: "center",
                     }}
                   >
-                    <h1>{"PedalArte"}</h1>
-                    <p>
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"PedalArte"}
+                    </h1>
+                    <p style={{ height: 200 }}>
                       {
                         "Design in Adobe XD of a custom bike shop website created in my Google UX design certification"
                       }
@@ -549,8 +617,10 @@ const Teste = () => {
                       borderRadius: 20,
                     }}
                   >
-                    <h1>{"Unicamp classroom finder"}</h1>
-                    <p>
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"Unicamp classroom finder"}
+                    </h1>
+                    <p style={{ height: 200 }}>
                       {
                         "Design created in Adobe XD for a classroom locator application at the State University of Campinas"
                       }

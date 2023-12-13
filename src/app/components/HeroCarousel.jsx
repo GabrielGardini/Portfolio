@@ -6,6 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import pingpong from "../public/assets/images/pingpong.png";
 import dalle from "../public/assets/images/dalle.png";
+import shirt3d from "../public/assets/images/shirt3d.png";
 import issTracker from "../public/assets/images/iss-tracker.png";
 import Todos from "../public/assets/images/Todos.png";
 import jacare from "../public/assets/images/jacare.png";
@@ -14,7 +15,7 @@ import flipstore from "../public/assets/images/flipstore.png";
 import pedalarte from "../public/assets/images/pedalarte.png";
 import localizador from "../public/assets/images/localizadorDeSalas.png";
 import checkspeech from "../public/assets/images/checkspeech.png";
-import { Box, Button, Divider, useMediaQuery } from "@mui/material";
+import { Box, Button, Divider, Typography, useMediaQuery } from "@mui/material";
 import "../globals.css";
 
 const HeroCarousel = () => {
@@ -83,8 +84,73 @@ const HeroCarousel = () => {
                 mb: 15,
               }}
             >
-              <h1>{"Dall-e Clone"}</h1>
-              <p>
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"Customized 3D Shirt"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
+                {
+                  "Application that allows the user to customize a 3D shirt and save the file. Created to improve my knowledge about 3D modeling and Three.js"
+                }
+              </p>
+              <Image
+                src={shirt3d}
+                alt={"3D shirt"}
+                width={matches ? 700 : 300}
+                height={matches ? 400 : 175}
+                style={{ borderRadius: 10 }}
+              />
+              <a
+                target="blank"
+                href="https://3d-customized-shirt.vercel.app"
+                style={{ textDecoration: "none" }}
+              >
+                <Button
+                  sx={{
+                    mb: 15,
+                    mt: 3,
+                    bgcolor: "#3D5BA9",
+                    color: "#EFF1F6",
+                    ":hover": { backgroundColor: "#EFF1F6", color: "#3D5BA9" },
+                  }}
+                  variant="contained"
+                >
+                  access
+                </Button>
+              </a>
+            </div>
+            <div
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                backgroundColor: "#ffffff",
+                mb: 15,
+              }}
+            >
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"Dall-e Clone"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
                 {
                   "Application that generates images using artificial intelligence and saves them in a repository. Created to improve my knowledge about MERN"
                 }
@@ -124,8 +190,20 @@ const HeroCarousel = () => {
                 mb: 15,
               }}
             >
-              <h1>{"Todo List"}</h1>
-              <p>
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"Todo List"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
                 {
                   "A website where users can create an account and save their to-do list, created to improve knowledge about the MERN Stack"
                 }
@@ -165,8 +243,20 @@ const HeroCarousel = () => {
                 mb: 15,
               }}
             >
-              <h1>{"CheckSpeech AI"}</h1>
-              <p>
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"CheckSpeech AI"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
                 {"A website created to sell a Speech-to-text conversion API"}
               </p>
               <Image
@@ -204,8 +294,20 @@ const HeroCarousel = () => {
                 mb: 15,
               }}
             >
-              <h1>{"Jacaré do SUS"}</h1>
-              <p>
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"Jacaré do SUS"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
                 {"Created in a game development marathon during the pandemic"}
               </p>
               <Image
@@ -243,8 +345,20 @@ const HeroCarousel = () => {
                 mb: 15,
               }}
             >
-              <h1>{"ISS Tracker"}</h1>
-              <p>
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"ISS Tracker"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
                 {
                   "Application that shows where the International Space Station is currently located created to improve my knowledge about consumption and API's."
                 }
@@ -284,8 +398,22 @@ const HeroCarousel = () => {
                 mb: 15,
               }}
             >
-              <h1>{"Ping Pong Game"}</h1>
-              <p>{"Ping Pong game created using only javascript."}</p>
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"Ping Pong Game"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
+                {"Ping Pong game created using only javascript."}
+              </p>
               <Image
                 src={pingpong}
                 alt={"ping pong"}
@@ -321,8 +449,20 @@ const HeroCarousel = () => {
                 mb: 15,
               }}
             >
-              <h1>{"The Office Quotes"}</h1>
-              <p>
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"The Office Quotes"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
                 {
                   "Web application that contains several striking phrases from The Office. Created to improve Api consumption and audio reproduction concepts"
                 }
@@ -407,8 +547,20 @@ const HeroCarousel = () => {
                 mb: 15,
               }}
             >
-              <h1>{"FlipStore"}</h1>
-              <p>
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"FlipStore"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
                 {
                   "Design in figma of an arcade store app created in my Google ux design certification"
                 }
@@ -446,8 +598,20 @@ const HeroCarousel = () => {
                 alignItems: "center",
               }}
             >
-              <h1>{"PedalArte"}</h1>
-              <p>
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"PedalArte"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
                 {
                   "Design in Adobe XD of a custom bike shop website created in my Google UX design certification"
                 }
@@ -486,8 +650,20 @@ const HeroCarousel = () => {
                 borderRadius: 20,
               }}
             >
-              <h1>{"Unicamp classroom finder"}</h1>
-              <p>
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"Unicamp classroom finder"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
                 {
                   "Design created in Adobe XD for a classroom locator application at the State University of Campinas"
                 }
