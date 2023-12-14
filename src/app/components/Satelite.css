@@ -21,6 +21,7 @@
    0 0 20em 4em #e8a55233,
    0 0 55em 8em #ff4d4d1a;
    position: relative;
+
 }   
 
 .satellite, .satellite::after {
@@ -40,6 +41,7 @@
     left: 3em;
     transform: rotate(20deg);
     animation: round 5s infinite ease-in-out;
+
 }
 
 .satellite::after{
@@ -78,51 +80,28 @@
 
 @keyframes round {
     0%,
-    100%{
-        top: 2em;
-        left: -15em;
-        box-shadow: -2em 0 5em 0.5em #c6836466;
-        z-index: 2;
-    }
-    23%{
-
-        z-index: 2;
-    }
-    25%{
-    
-        box-shadow: 0 0 3em 1em #412104b5;
-    }
-    75%{
-   
-        box-shadow: 0 0 3em 1em black;
-
-        z-index: -1;
-    }
-    74%{
-
-    }
-    48%{
-    
-        z-index: 2;
-    }
-    50%{
-        left: 40em;
-        top: 20em;
-        z-index: 2;
-        box-shadow: 2em 0 5em 0.5em #845a4682;
-    }
-    51%{
-        background: white;
-        left: 40em;
-        top: 20em;
-        z-index: 1;
-        box-shadow: 2em 0 5em 0.5em #845a4682;
-    }
-    99%{
-        z-index: 1;
+    100% {
+      top: 2em;
+      left: -15em;
+      /* z-index: 2;  */
+      box-shadow: -2em 0 5em 0.5em #c6836466;
     }
 
-}
+    74% {
+      z-index: -1; /* Satélite desaparecendo atrás do planeta */
+    }
+    99% {
+        z-index: 1; /* Satélite desaparecendo atrás do planeta */
+
+
+      }
+    50% {
+      left: 40em;
+      top: 20em;
+      z-index: 2; /* Satélite na frente do planeta */
+      box-shadow: 2em 0 5em 0.5em #845a4682;
+    }
+  }
 }
 
 
@@ -205,49 +184,27 @@
     
     @keyframes round {
         0%,
-        100%{
-            top: 1em;
-            left: -7.5em;
-            box-shadow: -2em 0 5em 0.5em #c6836466;
-            z-index: 2;
-        }
-        23%{
-    
-            z-index: 2;
-        }
-        25%{
-        
-            box-shadow: 0 0 3em 1em #412104b5;
-        }
-        75%{
-       
-            box-shadow: 0 0 3em 1em black;
-    
-            z-index: -1;
-        }
-        74%{
-    
-        }
-        48%{
-        
-            z-index: 2;
-        }
-        50%{
-            left: 20em;
-            top: 10em;
-            z-index: 2;
-            box-shadow: 2em 0 5em 0.5em #845a4682;
-        }
-        51%{
-            background: white;
-            left: 20em;
-            top: 10em;
-            z-index: 1;
-            box-shadow: 2em 0 5em 0.5em #845a4682;
-        }
-        99%{
-            z-index: 1;
-        }
+    100% {
+      top: 1em;
+      left: -7.5em;
+      /* z-index: 2;  */
+      box-shadow: -2em 0 5em 0.5em #c6836466;
+    }
+
+    74% {
+      z-index: -1; /* Satélite desaparecendo atrás do planeta */
+    }
+    99% {
+        z-index: 1; /* Satélite desaparecendo atrás do planeta */
+
+
+      }
+    50% {
+      left: 20em;
+      top: 10em;
+      z-index: 2; /* Satélite na frente do planeta */
+      box-shadow: 2em 0 5em 0.5em #845a4682;
+    }
     
     }
     }
