@@ -15,6 +15,7 @@ import flipstore from "../public/assets/images/flipstore.png";
 import pedalarte from "../public/assets/images/pedalarte.png";
 import localizador from "../public/assets/images/localizadorDeSalas.png";
 import checkspeech from "../public/assets/images/checkspeech.png";
+import weatherwindow from "../public/assets/images/weatherwindow.png";
 import { Box, Button, Divider, Typography, useMediaQuery } from "@mui/material";
 import "../globals.css";
 
@@ -112,6 +113,59 @@ const HeroCarousel = () => {
               <a
                 target="blank"
                 href="https://3d-customized-shirt.vercel.app"
+                style={{ textDecoration: "none" }}
+              >
+                <Button
+                  sx={{
+                    mb: 15,
+                    mt: 3,
+                    bgcolor: "#3D5BA9",
+                    color: "#EFF1F6",
+                    ":hover": { backgroundColor: "#EFF1F6", color: "#3D5BA9" },
+                  }}
+                  variant="contained"
+                >
+                  access
+                </Button>
+              </a>
+            </div>
+            <div
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                backgroundColor: "#ffffff",
+                mb: 15,
+              }}
+            >
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"Weather X"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
+                {
+                  "Application that shows the weather of a specific city. Created to use the Glassmorphism tecnique"
+                }
+              </p>
+              <Image
+                src={weatherwindow}
+                alt={"weather window"}
+                width={matches ? 700 : 300}
+                height={matches ? 400 : 175}
+                style={{ borderRadius: 10 }}
+              />
+              <a
+                target="blank"
+                href="https://weather-window-seven.vercel.app"
                 style={{ textDecoration: "none" }}
               >
                 <Button
