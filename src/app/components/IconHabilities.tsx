@@ -42,7 +42,7 @@ const IconHabilities = () => {
           fontSize: matches ? 30 : 20,
         }}
       >
-        <h1>My Habilities</h1>
+        <h1>My Skills</h1>
       </div>
       <Box
         sx={{
