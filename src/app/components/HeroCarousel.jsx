@@ -16,6 +16,7 @@ import pedalarte from "../public/assets/images/pedalarte.png";
 import localizador from "../public/assets/images/localizadorDeSalas.png";
 import checkspeech from "../public/assets/images/checkspeech.png";
 import weatherwindow from "../public/assets/images/weatherwindow.png";
+import violaonaveia from "../public/assets/images/violaonaveia.png";
 import { Box, Button, Divider, Typography, useMediaQuery } from "@mui/material";
 import "../globals.css";
 
@@ -76,6 +77,59 @@ const HeroCarousel = () => {
             showStatus={false}
             width={matches ? 700 : 300}
           >
+            <div
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                backgroundColor: "#ffffff",
+                mb: 15,
+              }}
+            >
+              <h1
+                style={{
+                  height: matches ? 150 : 100,
+                  fontSize: matches ? 38 : 24,
+                }}
+              >
+                {"Violão na Veia"}
+              </h1>
+              <p
+                style={{
+                  height: matches ? 200 : 100,
+                  fontSize: matches ? 30 : 15,
+                }}
+              >
+                {
+                  "Application that allows the user to learn how to play the guitar. Created to improve my knowledge about Next.js and UX design"
+                }
+              </p>
+              <Image
+                src={violaonaveia}
+                alt={"Violão na veia"}
+                width={matches ? 700 : 300}
+                height={matches ? 400 : 175}
+                style={{ borderRadius: 10 }}
+              />
+              <a
+                target="blank"
+                href="https://violao-na-veia.vercel.app"
+                style={{ textDecoration: "none" }}
+              >
+                <Button
+                  sx={{
+                    mb: 15,
+                    mt: 3,
+                    bgcolor: "#3D5BA9",
+                    color: "#EFF1F6",
+                    ":hover": { backgroundColor: "#EFF1F6", color: "#3D5BA9" },
+                  }}
+                  variant="contained"
+                >
+                  access
+                </Button>
+              </a>
+            </div>
             <div
               sx={{
                 display: "flex",

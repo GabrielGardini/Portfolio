@@ -20,6 +20,7 @@ import pedalarte from "../public/assets/images/pedalarte.png";
 import localizador from "../public/assets/images/localizadorDeSalas.png";
 import checkspeech from "../public/assets/images/checkspeech.png";
 import weatherwindow from "../public/assets/images/weatherwindow.png";
+import violaonaveia from "../public/assets/images/violaonaveia.png";
 
 const Teste = () => {
   //ESTILOS SOLUTIONS
@@ -106,6 +107,52 @@ const Teste = () => {
                   showStatus={false}
                   width={matches2 ? 700 : matches ? 500 : 300}
                 >
+                  <div
+                    sx={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      backgroundColor: "#ffffff",
+                      mb: 15,
+                    }}
+                  >
+                    <h1 style={{ height: matches ? 150 : 100 }}>
+                      {"Violão na Veia"}
+                    </h1>
+                    <p style={{ height: 200 }}>
+                      {
+                        "Application that allows the user to learn how to play the guitar. Created to improve my knowledge about Next.js and UX design"
+                      }
+                    </p>
+                    <Image
+                      src={violaonaveia}
+                      alt={"Violão na veia"}
+                      width={matches2 ? 700 : matches ? 500 : 300}
+                      height={matches2 ? 400 : matches ? 250 : 175}
+                      style={{ borderRadius: 10 }}
+                    />
+                    <a
+                      target="blank"
+                      href="https://violao-na-veia.vercel.app"
+                      style={{ textDecoration: "none" }}
+                    >
+                      <Button
+                        sx={{
+                          mb: 15,
+                          mt: 3,
+                          bgcolor: "#3D5BA9",
+                          color: "#EFF1F6",
+                          ":hover": {
+                            backgroundColor: "#EFF1F6",
+                            color: "#3D5BA9",
+                          },
+                        }}
+                        variant="contained"
+                      >
+                        access
+                      </Button>
+                    </a>
+                  </div>
                   <div
                     sx={{
                       display: "flex",
